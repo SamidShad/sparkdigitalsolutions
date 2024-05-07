@@ -1,0 +1,137 @@
+.navbar_area {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 15;
+  align-items: center;
+}
+
+.navbar {
+  background: rgba(0, 149, 255, 0.32);
+  backdrop-filter: blur(12.9px);
+  -webkit-backdrop-filter: blur(12.9px);
+  max-width: 1500px;
+  padding: 0px 40px 0px 40px;
+  width: 100%;
+  margin: 30px 10px;
+  height: 80px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  display: flex;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  flex-direction: column;
+  font-size: 22px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0px 25px 0px 25px;
+  transition: 0.3s;
+}
+
+.navbar li:hover {
+  color: rgb(0, 162, 255);
+}
+
+.menu_btn {
+  display: none;
+}
+
+.full_screen_menu {
+  background: rgba(0, 149, 255, 0.32);
+  backdrop-filter: blur(12.9px);
+  -webkit-backdrop-filter: blur(12.9px);
+  width: 100%;
+  height: 100%;
+  z-index: 14;
+  position: fixed;
+  display: none;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.full_screen_menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.full_screen_menu ul li {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+  list-style: none;
+  color: white;
+}
+
+.full_screen_menu li:hover {
+  color: rgb(0, 162, 255);
+}
+
+@media only screen and (max-width: 995px) {
+  .nav_logo {
+    font-size: 18px;
+  }
+
+  .navbar li {
+    font-size: 15px;
+    margin: 0px 15px 0px 15px;
+  }
+
+  .navbar button {
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .nav_logo {
+    font-size: 18px;
+  }
+
+  .navbar li {
+    display: none;
+  }
+
+  .navbar button {
+    display: none;
+  }
+
+  .full_screen_menu {
+    display: flex;
+  }
+
+  .menu_btn {
+    display: block;
+    color: white;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .full_screen_menu ul li {
+    font-size: 30px;
+  }
+}

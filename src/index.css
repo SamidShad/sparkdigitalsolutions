@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.btn {
+  border-radius: 30px;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background: rgba(0, 149, 255, 0.32);
+  transition: 0.3s;
+  backdrop-filter: blur(12.9px);
+  -webkit-backdrop-filter: blur(12.9px);
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: rgba(0, 149, 255, 0.97);
+  box-shadow: 0px 0px 20px rgba(0, 149, 255, 0.97);
+}
+
+.bg_effect {
+  background: rgb(0, 149, 255);
+  width: 200px;
+  height: 200px;
+  border-radius: 60px;
+  filter: blur(200px);
+}
