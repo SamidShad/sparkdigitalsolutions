@@ -15,8 +15,8 @@ function Contact() {
               <div className={styles.contact_card}>
                 <div>
                   <MdEmail className={styles.contact_card_icons} size={30} />
-                  <a href="mailto:Sparkdigitalsolutions01@gmail.com">
-                    <p>sparkdigital@solutions.com</p>
+                  <a href="mailto:sparkdigitalsolutions01@gmail.com">
+                    <p>sparkdigitalsolutions01@gmail.com</p>
                   </a>
                 </div>
                 <div>
