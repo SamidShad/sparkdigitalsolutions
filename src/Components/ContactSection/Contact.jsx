@@ -23,13 +23,6 @@ function Contact() {
                   <FaPhone className={styles.contact_card_icons} size={30} />
                   <p>+2348114901234</p>
                 </div>
-                <div>
-                  <FaLocationDot
-                    className={styles.contact_card_icons}
-                    size={30}
-                  />
-                  <p>University of Ilorin, Ilorin, Kwara state</p>
-                </div>
               </div>
             </div>
           </div>
