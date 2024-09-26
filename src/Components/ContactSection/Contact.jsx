@@ -21,7 +21,7 @@ function Contact() {
                 </div>
                 <div>
                   <FaPhone className={styles.contact_card_icons} size={30} />
-                  <p>+2348114901234</p>
+                  <p>+2349030970754</p>
                 </div>
               </div>
             </div>
